@@ -1,4 +1,4 @@
-class CreateSupplierBankAccounts < ActiveRecord::Migration
+class CreateSupplierBankAccounts < ActiveRecord::Migration[4.2]
   def change
     create_table :spree_supplier_bank_accounts do |t|
       t.string :masked_number
